@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+    background:  no-repeat center/cover url(assets/photo-1528360983277-13d401cdc186.jpeg);
+    background-size: cover ;
+}
+ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: #1d61dd;
+    color: white;
+}
+
+.bandeira{
+ width: 60px;
+ height: 40px;
+}
+
+header {
+    background: no-repeat center/cover url(/assets/con-la-primavera-in-giappone.jpg);
+    padding: 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 50px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    display: flex;
+    margin: 0 15px;
+    color: #111111;
+    justify-content: end;
+    width: 400px;
+    height: 400px;
+}
+
+header nav p {
+    font-weight: bold;
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+    color: #ffffff;
+    opacity: 100%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+header nav p{
+    font-weight: bold;
+}
+
+.header-content h1{
+    margin-top: 10px;
+    font-size: 3rem;
+}
+
+.infos .infos-title{
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 3rem;
+    color: white
+}
+
+.infos{
+    padding: 15px;
+    position: relative;
+}
+
+.infos .infos-card{
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.infos .card-image{
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+}
+
+.infos .card{
+    width: 250px;
+    height: 420px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
+    
+}
+
+.infos .card-content {
+    padding: 0 15px;
+    color: rgb(226, 163, 226);
+}
+
+.infos .card-content ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.infos .card-content ul li{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: rgb(226, 163, 226);
+    font-weight: bold;
+}
+
+.infos .card-content li svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.infos .card-content h1 {
+    font-size: 1.6rem;
+}
+
+.relato {
+    padding: 50px;
+    background: #c06161;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.relato .relato-title {
+    text-align: center;
+
+}
+
+
+.relato .relato-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.relato .relato-icon svg{
+    width: 40px;
+    height: 40px;
+}
+
+.relato .relato-text  p{
+    text-align: center;
+    
+}
+
+.contatos {
+    text-align: center;
+    padding: 15px;
+    background: #6b5088;
+}
+.contatos h2 {
+    padding-top: 30px;
+}
+
+.contatos p{
+    padding-bottom: 30px;
+}
+.contatos-icons {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    padding: 40px;
+}
+
+.contatos-icons svg:hover {
+    stroke: #e70b0b;
+    transform: scale(1.5);
+}
+.contatos .mail{
+    padding: 40px;
+    color: #000000;
+    
+}
+
+.contatos .twitter{
+    padding: 40px;
+    color: #000000;
+}
+
+.contatos .face{
+    padding: 40px;
+    color: #000000;
+}
+
+.contatos .instagram{
+    padding: 40px;
+    color: #000000;
+}
+.contatos .phone{
+    padding: 40px;
+    color: #000000;
+}
+
